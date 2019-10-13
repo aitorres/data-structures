@@ -1,3 +1,22 @@
+# encoding=utf-8
+
+'''
+Basic implementation of a Stack using a array(list) in Python.
+Implemented in Python 3.7.6
+
+Source:
+    Cormen, T. et al. "Introduction to Algorithms", 2nd Edition
+
+Author:
+    Luis Alfonso Pino
+    @lapy0110 on github
+
+Tutor:
+    Andrés Ignacio Torres
+    @aitorres on github
+    @andresitorresm on twitter
+'''
+
 import sys
 
 class Stack:
