@@ -21,14 +21,17 @@ import sys
 
 class Queue:
     def __init__(self, initial_capacity):
+        '''
+        Constructor of the class. Gives an initial lenght to array and define
+        all values accord to this.
+        '''
         self.length_ = initial_capacity
         self.array_ = self.length_ * [0]
         self.tail_ = 0
         self.head_ = 0
         self.num_elements_ = 0
 
-    # size of new array is double of old array; elements are copied from old to new array
-    # since queue may wrap around the array, we need to cover such case
+   
     def increase_capacity(self):
         new_length = 2 if self.length_ == 0 else 2 * self.length_
         old_array = self.array_
